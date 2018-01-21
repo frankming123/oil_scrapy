@@ -8,7 +8,7 @@ list1=eval(fi)
 
 now_time=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-db=pymysql.connect(host="101.132.44.182",user="oiluser",password="123456",db="oil_price",charset="utf8")
+db=pymysql.connect(host="x.x.x.x",user="xxx",password="xxx",db="oil_price",charset="utf8")
 cursor = db.cursor()
 
 for dic in list1:
